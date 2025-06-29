@@ -18,9 +18,9 @@ Develop a modern data warehouse using Sql Server to consolidate sale data,enabli
 **Docmentation**: Provde clear documentation of data model to support both bussiness stackeholders and analytic teams.
 
 --
-### BI: Analytic and Reporting (Data Analytic)
+## BI: Analytic and Reporting (Data Analytic)
 
-##### Objectives 
+### Objectives 
 Develop SQL based analytic to deliver detailed insight into:
 **Customer Behaviour**
 **Product Performance**
