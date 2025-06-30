@@ -9,20 +9,6 @@ Run this script to Re-Define DDl strucure of 'Bronze' layer. Below is Code scrip
 */
 
 
---Create Database
-CREATE DATABASE DataWarehouse;
-
-USE Datawarehouse; 
-
---Create Schema 
---{In SQL Server, a schema is a way to logically group database objects such as tables, views, stored procedures, functions, and schemas themselves. It helps organize and secure database objects}.
-CREATE SCHEMA Bronze;
-GO
-CREATE SCHEMA Silver;
-GO
-CREATE SCHEMA Gold;
-Go
---{After each command we will have Go,GO Separate batches when working With multiple SQL Statements. it tell sql to complete first command before going to next command}
 
 --Create Tables in the DataWarehouse where data is to be loaded
 IF OBJECT_ID('bronze.crm_cust_info','U') IS NOT NULL
