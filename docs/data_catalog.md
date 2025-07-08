@@ -4,7 +4,7 @@
 Gold Layer is Business-level data representaion, structured to support analytic and busines reporting use cases. it consiist of **dimension**
 and **Facts Table** for specific business metrics.
 
-### Gold.dim_customers:
+### 1)Gold.dim_customers:
 **Purpose:** Store customers details enriched with demographic and geographic data.
 
 | Column Name       | Data type    | Description                                                                                                 |
