@@ -1,5 +1,5 @@
-| Column NAme       | Age   | City        |
-|:-----------------:|:-----:|:------------|
-| Alice             | 30    | Toronto     |
-| Bob               | 25    | Vancouver   |
-| Charlie           | 35    | Montreal      |
+| Column NAme       | Data type    | Description                                                                                                 |
+|:-----------------:|:-----------: |:-----------------------------------------------------------------------------------------------------------:|
+| Alice             | NVARCHAR(50) | Toronto                                                                                                     |
+| Bob               | 25           | Vancouver                                                                                                   |
+| Charlie           | 35           | Montreal                                                                                                    |
