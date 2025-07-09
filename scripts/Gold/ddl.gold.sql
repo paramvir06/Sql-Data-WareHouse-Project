@@ -1,7 +1,7 @@
-/*=================================================================================================
-## DDL Script : Create view for Gold Layer
-===================================================================================================
-## Script Purpose :
+/* =================================================================================================
+            DDL Script : Create view for Gold Layer
+ ===================================================================================================
+Script Purpose :
          This script create viwe for goold layer in dataware house.
          The Gold layer represenst the final dimeansions and fact table (star schema).
 
