@@ -1,5 +1,5 @@
 # Sql-Data-WareHouse-Project 
-Welcome To **Data Ware HouseN Analytic Project** Reprository !![image](https://github.com/user-attachments/assets/82eec11f-98dc-4b1c-8a05-a025f90555cc)
+Welcome To **Data Ware HouseN Analytic Project** Reprository !!
 This Project Demostrate A Comrehensive Datawahouse n analytic Solutions,From Building a data warehouse to generating Actionable insight. Deisgned as Portfolio project highlights Industries Best Practices in data engineering and Analytics.
 
 --
