@@ -42,7 +42,7 @@ and **Facts Table** for specific business metrics.
 |:-------------------:|:-----------: |:-----------------------------------------------------------------------------------------------------------:|
 |order_number         |NVARCHAR(50)  | A unique alphanumeric identifier for each sales order                                                       |
 |product_key          |INT           | Surogate key linking order to product dimension                                                             |  
-|customer_key         INT            | Surrogate key  linking order to customes details dimensions                                                 |
+|customer_key         |INT           | Surrogate key  linking order to customes details dimensions                                                 |
 |order_date           |DATE          | A date when order as placed                                                                                 |
 |shipping_date        |DATE          | A date when order was shipped to the customers                                                              |    
 |due_date             |DATE          | A date when order payment was due                                                                           |
