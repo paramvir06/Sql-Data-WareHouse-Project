@@ -31,4 +31,10 @@ These Key Insights Enable Stackeholders with key business metrics, enabling stra
 #### Licence:
 This Project is Licensed under MIT License.You are free to use n modify it.
 
+## Data architecture
+![Screenshot 2025-07-09 121426](https://github.com/user-attachments/assets/c783bd25-d784-47e6-9bf0-7304a251b359)
+
+
+
+
 
