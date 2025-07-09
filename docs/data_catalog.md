@@ -19,3 +19,47 @@ and **Facts Table** for specific business metrics.
 |gender             |NVARCHAR(50)  | The Gender of the customer whether male or female                                                           |
 |birth_date         |date          | The date of birth of customer yy-mm-dd formats                                                              |  
 |create_date        |date          | Exact time when customer record was created in the system                                                   | 
+
+### 2)Gold.dim_products:
+**Purpose:** Store customers details enriched with demographic and geographic data.
+
+| Column Name         | Data type    | Description                                                                                                 |
+|:-------------------:|:-----------: |:-----------------------------------------------------------------------------------------------------------:|
+|product_key          |int           | Surrogate key uniquely idenity each product record in product dimension table                               |
+|product_id           |int           | unique numerical identifier assigned top product for internal tracking                                      | 
+|product_number       |NAVCHAR(50)   | A structured alphanumeric code representing the product                                                     |
+|category_id          |NAVCHAR(50)   | A unique identifier for product category                                                                    |
+|sub_category         |NAVCHAR(50)   | A more detailed classificaton of product witin category                                                     |
+|maintenance_required |NAVCHAR(50)   | It indicates whether product requird maintenance or not yes or no                                           |
+|cost                 |int           | The cost price of the products                                                                              |
+|product_line         |NAVCHAR(50)   | This specifies product line or series to which product belongs(e.g. Road,Mountains)                         |
+|start_date           |date          | Thde date when product available for sale or use,stored in                                                  |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
