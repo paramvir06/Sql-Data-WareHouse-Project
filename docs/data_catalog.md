@@ -4,7 +4,7 @@
 Gold Layer is Business-level data representaion, structured to support analytic and busines reporting use cases. it consiist of **dimension**
 and **Facts Table** for specific business metrics.
 
-### 1)Gold.dim_customers:
+### 1) Gold.dim_customers:
 **Purpose:** Store customers details enriched with demographic and geographic data.
 
 | Column Name       | Data type    | Description                                                                                                 |
@@ -20,7 +20,7 @@ and **Facts Table** for specific business metrics.
 |birth_date         |date          | The date of birth of customer yy-mm-dd formats                                                              |  
 |create_date        |date          | Exact time when customer record was created in the system                                                   | 
 
-### 2)Gold.dim_products:
+### 2) Gold.dim_products:
 **Purpose:** Store customers details enriched with demographic and geographic data.
 
 | Column Name         | Data type    | Description                                                                                                 |
@@ -34,6 +34,21 @@ and **Facts Table** for specific business metrics.
 |cost                 |int           | The cost price of the products                                                                              |
 |product_line         |NAVCHAR(50)   | This specifies product line or series to which product belongs(e.g. Road,Mountains)                         |
 |start_date           |date          | Thde date when product available for sale or use,stored in                                                  |
+
+# 3) Gold.facts_sales
+**Purose :** Store transactional sales data for analytical purpose
+
+| Column Name         | Data type    | Description                                                                                                 |
+|:-------------------:|:-----------: |:-----------------------------------------------------------------------------------------------------------:|
+|order_number         |NVARCHAR(50)  | A unique alphanumeric identifier for each sales order                                                       |
+|product_key          |INT           | Surogate key linking order to product dimension                                                             |  
+|customer_key         INT            | Surrogate key  linking order to customes details dimensions                                                 |
+|order_date           |DATE          | A date when order as placed                                                                                 |
+|shipping_date        |DATE          | A date when order was shipped to the customers                                                              |    
+|due_date             |DATE          | A date when order payment was due                                                                           |
+|sales_amount         |INT           | The total monetary value or tge sales                                                                       |
+|quantity             |INT           | The number of unit of the products ordered                                                                  |
+|amount               |INT           | The price of the unit of the products                                                                       |
 
 
 
