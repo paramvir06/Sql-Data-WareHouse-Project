@@ -35,7 +35,7 @@ and **Facts Table** for specific business metrics.
 |product_line         |NAVCHAR(50)   | This specifies product line or series to which product belongs(e.g. Road,Mountains)                         |
 |start_date           |date          | Thde date when product available for sale or use,stored in                                                  |
 
-# 3) Gold.facts_sales
+### 3) Gold.facts_sales
 **Purose :** Store transactional sales data for analytical purpose
 
 | Column Name         | Data type    | Description                                                                                                 |
